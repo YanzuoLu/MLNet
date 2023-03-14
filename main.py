@@ -51,8 +51,8 @@ def main():
     model_without_ddp = model.module if WORLD_SIZE > 1 else model
     state = load_checkpoint(model_without_ddp, optimizer)
 
-    hscore = evaluate(model, eval_loader, device_id)
-    logger.info(f'[Evaluation Result] H-score: {hscore}')
+    hscore, known_acc, unknown_acc, cset_acc = evaluate(model, eval_loader, device_id)
+    logger.info(f'[Evaluation Result] H-score: {hscore}, Known Acc: {known_acc}, Unknown Acc: {unknown_acc}, Closed-Set Acc: {cset_acc}')
 
     start_iter = state.iter + 1
     train_loader_iter = iter(train_loader)
