@@ -1,3 +1,9 @@
+data/Office
+data/OfficeHome
+data/DomainNet
+data/VisDA
+runs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

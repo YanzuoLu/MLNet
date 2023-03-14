@@ -1,0 +1,12 @@
+name: mlnet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python==3.9.15
+  - pytorch==1.12.1
+  - torchvision==0.13.1
+  - torchaudio==0.12.1
+  - cudatoolkit==11.6
+  - yacs==0.1.8
+  - tensorboard==2.11.0
