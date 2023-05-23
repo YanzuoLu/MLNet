@@ -32,7 +32,7 @@ from utils.metric import AverageMeter
 def main():
     device_id = LOCAL_RANK
     torch.cuda.set_device(device_id)
-    torch.backends.cudnn.deterministic = cfg.ENGINE.DETERMINISTIC
+    torch.backends.cudnn.benchmark = True
     torch.backends.cuda.matmul.allow_tf32 = cfg.ENGINE.ALLOW_TF32
     torch.backends.cudnn.allow_tf32 = cfg.ENGINE.ALLOW_TF32
     logger.info(f'set cuda device = {device_id}')
