@@ -1,4 +1,4 @@
-name: mlnet
+name: MLNet
 channels:
   - pytorch
   - defaults
