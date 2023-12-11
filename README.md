@@ -1,5 +1,5 @@
 # MLNet
-Pytorch Implementation of "MLNet: Mutual Learning Network for Universal Domain Adaptation"
+[AAAI2024] Pytorch Implementation of "MLNet: Mutual Learning Network for Universal Domain Adaptation"
 
 ## Installation
 
