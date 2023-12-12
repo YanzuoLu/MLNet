@@ -69,7 +69,7 @@ Note that you don't need to activate the environment or set the number of thread
 
 
 ## Citation
-```
+```bibtex
 @inproceedings{lu2024mlnet,
   title={MLNet: Mutual Learning Network with Neighborhood Invariance for Universal Domain Adaptation},
   author={Lu, Yanzuo and Shen, Meng and Ma, Andy J and Xie, Xiaohua and Lai, Jian-Huang},
