@@ -66,3 +66,14 @@ bash scripts/MLNet/Office/train_all_cda.sh GPU_ID
 bash scripts/MLNet/Office/train_all.sh GPU_ID
 ```
 Note that you don't need to activate the environment or set the number of threads by yourself, it's all automatic. When training MLNet on the VisDA dataset, the required memory can be large. The above scripts are also available for the baseline OVANet.
+
+
+## Citation
+```
+@inproceedings{lu2024mlnet,
+  title={MLNet: Mutual Learning Network with Neighborhood Invariance for Universal Domain Adaptation},
+  author={Lu, Yanzuo and Shen, Meng and Ma, Andy J and Xie, Xiaohua and Lai, Jian-Huang},
+  booktitle={AAAI},
+  year={2024}
+}
+```

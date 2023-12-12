@@ -1,6 +1,6 @@
 """
-@author: Anonymous Name
-@email:  Anonymous Email
+@author: Yanzuo Lu
+@email:  luyz5@mail2.sysu.edu.cn
 """
 
 import numpy as np
