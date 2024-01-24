@@ -1,5 +1,5 @@
 # MLNet
-[AAAI2024] MLNet: Mutual Learning Network with Neighborhood Invariance for Universal Domain Adaptation
+[AAAI 2024] MLNet: Mutual Learning Network with Neighborhood Invariance for Universal Domain Adaptation
 
 ## Installation
 
